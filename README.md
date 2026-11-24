@@ -1,4 +1,4 @@
-# sabli-app
+# Sabli
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sabli-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sabli.app/
+Sabli is a marketplace of AI minds built with real professionals, offering expert advice across product strategy, design, growth, tax, software architecture, and more. Users can consult experts via web, Claude, Cursor, and other AI tools over the Model Context Protocol (MCP). Every paid answer compensates the expert, ensuring high-quality, trustworthy insights.
+
+**Areas:** AI · Marketplace · ExpertAdvice · MCP · SaaS
+
+## Sabli on APIs.io
+
+Everything profiled for Sabli is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sabli-app/](https://apis.io/providers/sabli-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Sabli Match API](https://apis.io/apis/sabli-app/sabli-app-match-api/) — The Match API from Sabli — 1 operation(s) for match.
+- [Sabli Minds API](https://apis.io/apis/sabli-app/sabli-app-minds-api/) — The Minds API from Sabli — 5 operation(s) for minds.
+- [Sabli Runs API](https://apis.io/apis/sabli-app/sabli-app-runs-api/) — The Runs API from Sabli — 1 operation(s) for runs.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sabli Agentic Access](https://apis.io/agentic-access/sabli-app/sabli-app-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [Answer](https://apis.io/schemas/sabli-app/sabli-app-answer/)
+- [Mind](https://apis.io/schemas/sabli-app/sabli-app-mind/)
+- [MindSummary](https://apis.io/schemas/sabli-app/sabli-app-mind-summary/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sabli App Context](https://apis.io/jsonld/sabli-app/sabli-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sabli API Rules](https://apis.io/rules/sabli-app/sabli-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sabli Authentication](https://apis.io/security/sabli-app/sabli-app-authentication/)
+- [Sabli Domain Security](https://apis.io/security/sabli-app/sabli-app-domain-security/)
+- [Sabli Vulnerability Disclosure](https://apis.io/security/sabli-app/sabli-app-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sabli Plans Pricing](https://apis.io/plans/sabli-app/sabli-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sabli.app/)
+- [Getting started](https://sabli.app/onboarding-review)
+- [API reference](https://sabli.app/developers)
+- [Pricing](https://sabli.app/pricing)
+- [Sign up](https://sabli.app/signup?next=%2Fstudio)
+- [Security](https://sabli.app/privacy#security)
+- [Terms of service](https://sabli.app/terms)
+- [Privacy policy](https://sabli.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.2** — strong · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 52.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sabli-app/](https://apis.io/providers/sabli-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sabli: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sabli-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
